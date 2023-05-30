@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    text-align: left;
+    margin-bottom: 20px;
+}
+main{
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+.descuentos{
+    background-color: #1CD1B0;
+    height: 38px;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 17.58px;
+}
+
+.titulo{
+    background-color: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    padding: 30px 0 30px 10px;
+    font-size: 30px;
+    line-height: 36.88px;
+    margin-bottom: 10%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.cardBatman, .cardHarley{
+    display: inline-block;
+    width: 300px;
+    height: 545px;
+    margin-right: 3%;
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+.nombres{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35.16px;
+}
+
+.cardBatman{
+    background-image: url('../img/fondoBatman.png');
+    background-repeat: no-repeat;
+}
+
+.cardHarley{
+    background-image: url('../img/fondoHarley.png');
+    background-repeat: no-repeat;
+}
+
+i{
+    color: red;
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.cardBatman>img, .cardHarley>img{
+    border-radius: 50%;
+    position: relative;
+    top: 25%;
+    left: -0.5%;
+}
+
+.info{
+    position: relative;
+    top: 25%;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+.info>h2{
+    margin-bottom: 10px;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #00669F;
+    width: 128.78px;
+    height: 48.52px;
+    padding: 15px;
+    color: #F3F3F3;
+    margin-top: 7%;
+    font-size: 15px;
+    line-height: 17.58px;
+}
+
+footer{
+    background-color: #00669F;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #F3F3F3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+}
